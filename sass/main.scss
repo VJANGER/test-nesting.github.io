@@ -8,12 +8,13 @@
         color: black;
         transition: all .5s ease-in-out;
     }
-    &:hover, &__texto:hover{//comando de boton
+    &:hover{//comando de acción botón
         width: 250px;
         height: 200px;
         background-color: blueviolet;
-        font-size: 60px;
-        color: white;}
+        :first-child{//comando de acción texto
+            font-size: 60px;
+            color: white;}
+    }
 }
-
 
