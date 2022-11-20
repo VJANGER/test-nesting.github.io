@@ -1,8 +1,11 @@
+@charset "UTF-8";
 body {
   background-color: #efefef;
+  transition: all 0.5s ease-in-out;
 }
 
 .boton {
+  border-radius: 20px;
   width: 200px;
   height: 150px;
   background-color: aqua;
@@ -22,4 +25,17 @@ body {
 .boton:hover :first-child {
   font-size: 60px;
   color: white;
+}
+.boton:focus {
+  width: 300px;
+  height: 250px;
+  background-color: greenyellow;
+  box-shadow: 2px 2px 6px 8px rgba(255, 255, 255, 0.335);
+}
+.boton:focus :first-child {
+  font-size: 70px;
+  color: black;
+}
+.boton:focus body { /* no activa cuando focus en el botón */
+  background-color: black;
 }/*# sourceMappingURL=main.css.map */

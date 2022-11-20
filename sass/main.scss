@@ -1,5 +1,9 @@
-body{background-color: #efefef;}
+body{
+    background-color: #efefef;
+    transition: all .5s ease-in-out;
+}
 .boton{//botón en reposo
+    border-radius: 20px;
     width: 200px;
     height: 150px;
     background-color: aqua;
@@ -18,6 +22,19 @@ body{background-color: #efefef;}
             font-size: 60px;
             color: white;}
     }
+    
+    &:focus{
+        width: 300px;
+        height: 250px;
+        background-color: greenyellow;
+        box-shadow: 2px 2px 6px 8px rgba(255, 255, 255, 0.335);
+        :first-child{
+            font-size: 70px;
+            color: black;}
+        body{/* no activa cuando focus en el botón */
+            background-color: black;
+        }
+        }
 }
 
 
