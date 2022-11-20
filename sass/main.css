@@ -36,6 +36,6 @@ body {
   font-size: 70px;
   color: black;
 }
-.boton:focus body { /* no activa cuando focus en el botón */
+.boton:focus :root { /* no activa cuando focus en el botón */
   background-color: black;
 }/*# sourceMappingURL=main.css.map */

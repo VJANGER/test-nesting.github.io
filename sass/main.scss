@@ -31,7 +31,7 @@ body{
         :first-child{
             font-size: 70px;
             color: black;}
-        body{/* no activa cuando focus en el botón */
+        :root{/* no activa cuando focus en el botón */
             background-color: black;
         }
         }
