@@ -1,0 +1,19 @@
+.boton {
+  width: 200px;
+  height: 150px;
+  background-color: aqua;
+  transition: all 0.5s ease-in-out;
+}
+.boton:hover {
+  width: 250px;
+  height: 200px;
+  background-color: blueviolet;
+}
+.boton__texto {
+  font-size: 50px;
+  color: black;
+}
+.boton__texto__texto:hover {
+  font-size: 60px;
+  color: white;
+}/*# sourceMappingURL=main.css.map */
