@@ -4,16 +4,15 @@
   background-color: aqua;
   transition: all 0.5s ease-in-out;
 }
-.boton:hover {
-  width: 250px;
-  height: 200px;
-  background-color: blueviolet;
-}
 .boton__texto {
   font-size: 50px;
   color: black;
+  transition: all 0.5s ease-in-out;
 }
-.boton__texto__texto:hover {
+.boton:hover, .boton__texto:hover {
+  width: 250px;
+  height: 200px;
+  background-color: blueviolet;
   font-size: 60px;
   color: white;
 }/*# sourceMappingURL=main.css.map */

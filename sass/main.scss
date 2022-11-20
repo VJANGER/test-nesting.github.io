@@ -3,17 +3,17 @@
     height: 150px;
     background-color: aqua;
     transition: all .5s ease-in-out;
-    &:hover{//comando de botón cuando pasa por encima
+    &__texto{//texto en reposo
+        font-size: 50px;
+        color: black;
+        transition: all .5s ease-in-out;
+    }
+    &:hover, &__texto:hover{//comando de boton
         width: 250px;
         height: 200px;
         background-color: blueviolet;
-    }
-    &__texto{//texto en reposo (acá irían los span en reposo)
-        font-size: 50px;
-        color: black;
-    &__texto:hover{//comando de texto cuando pasa por encima (acá irían los comandos de span cuando pasa por encima)
         font-size: 60px;
-        color: white;
-    }
-    }
+        color: white;}
 }
+
+
