@@ -7,7 +7,7 @@ button{
         position: relative;
         border: none;
         outline: none;
-        background-color: blueviolet;
+        background-color: rgba(137, 43, 226, 0.501);
         font-size: 100px;
         color: rgba(255, 255, 255, 0.676);
         transition: all .5s ease-in-out;
@@ -43,6 +43,7 @@ button{
         }
     }
     button:hover{
+            background-color: blueviolet;
             color: white;
             :nth-child(1){
                 left: 0;
